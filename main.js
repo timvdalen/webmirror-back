@@ -9,4 +9,8 @@
 	mirror.start(4000, function () {
 		console.log("Listening");
 	});
+
+	process.on('SIGUSR2', function () {
+		mirror.broadcastRefresh();
+	});
 }());
