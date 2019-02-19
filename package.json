@@ -16,6 +16,6 @@
   "dependencies": {
     "forecast.io-bluebird": "0.0.1",
     "underscore": "^1.8.3",
-    "ws": "^0.8.0"
+    "ws": ">=1.1.1"
   }
 }
